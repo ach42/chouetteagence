@@ -1,0 +1,161 @@
+/* default */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+h1 {
+    font-size: 4vh;
+    font-weight: 400;
+}
+q::before {
+    content: "«";
+    color: blue;
+}
+q::after {
+    content: '»';
+    color: red;
+}
+/* Normal */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 20% 1.5% 20%;
+}
+header img {
+    width: 60%;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    row-gap: 30%;
+    font-size: 2vh;
+}
+.banniere-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F3976C;
+    row-gap: 5px;
+    z-index: 0;
+    background: url(/la-chouette-agence-banniere.jpg);
+    background-attachment: fixed;
+}
+.banniere-1 img {
+    width: 6%;
+    margin-top: 5%;
+}
+.banniere-1 a {
+    margin-bottom: 5%;
+    font-size: 2vh;
+    font-weight: 600;
+    color: #fff;
+    background-color: #F3976C;
+    padding: 1% 2% 1% 2%;
+    border-radius: 10px;
+}
+.argument-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+    font-size: 2vh;
+    padding: 3% 20% 3% 20%;
+}
+.argument-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.argument-icon div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.argument-icon span {
+    font-size: 10vh;
+}
+.banniere-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: url(/image-de-presentation.bmp);
+}
+.banniere-2 div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3% 10% 3% 10%;
+    font-size: 3vh;
+    text-align: center;
+}
+.argument-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 4vh;
+    padding: 3% 20% 3% 20%;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 2.5vh;
+}
+.gallery div {
+    margin: 2%;
+    width: 35%;
+}
+.gallery img {
+    width: 100%;
+}
+.gallery h6 {
+    font-size: 3vh;
+}
+.banniere-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 5vh;
+    padding: 3% 10% 3% 10%;
+    background: url(/la-chouette-agence-banniere.jpg);
+}
+.banniere-3 a {
+    font-size: 2vh;
+    font-weight: 600;
+    color: #fff;
+    width: 15%;
+    background-color: #F3976C;
+    padding: 1% 2% 1% 2%;
+    border-radius: 10px;
+}
+.banniere-4 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #F3976C;
+    padding: 10% 10% 10% 10%;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 4vh;
+}
+footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #F3976C;
+}
