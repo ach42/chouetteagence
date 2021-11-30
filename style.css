@@ -169,7 +169,8 @@ header li {
     row-gap: 15px;
 }
 .gallery img {
-    width: 100%;
+    width: 400px;
+    height: 400px;
 }
 .banniere-3 {
     display: flex;
