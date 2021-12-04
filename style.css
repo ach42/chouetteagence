@@ -16,21 +16,21 @@ h1 {
     font-weight: 400;
 }
 h2 {
-    font-size: 2.5vh;
+    font-size: 3vh;
     font-weight: 400;
     color: #5E6070;
 }
 h4 {
-    font-size: 2vh;
+    font-size: 3vh;
     color: #F3976C;
     font-weight: 500;
 }
 h5 {
-    font-size: 2.5vh;
+    font-size: 3vh;
     font-weight: 300;
 }
 h6 {
-    font-size: 1.5vh;
+    font-size: 2vh;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -51,7 +51,7 @@ header nav {
     display: flex;
     justify-content: space-around;
     width: 30%;
-    font-size: 2vh;
+    font-size: 2.5vh;
 }
 header li {
     padding: 0% 10% 0% 10%;
@@ -101,7 +101,7 @@ header li {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    margin-bottom: 15%;
+    margin-bottom: 2%;
 }
 .argument-icon span {
     font-size: 10vh;
@@ -162,12 +162,14 @@ header li {
     justify-content: center;
     flex-direction: row;
     font-size: 1.5vh;
+    width: 100%;
 }
 .gallery div {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 2%;
-    width: 35%;
+    width: 100%;
     row-gap: 15px;
 }
 .gallery img {
@@ -194,6 +196,9 @@ header li {
     background-color: #F3976C;
     padding: 1% 2% 1% 2%;
     border-radius: 30px;
+}
+.banniere-3 h2 {
+    color: #F3976C;
 }
 .banniere-4 {
     display: flex;
@@ -255,15 +260,19 @@ footer h1 {
 
 /* media queries */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 800px) {
     .banniere-1 img {
         width: 20%;
     }
     .banniere-1 a {
         padding: 3% 6% 3% 6%;
     }
+    .argument-1 {
+        padding: 3% 10% 3% 10%;
+    }
     .argument-icon {
         flex-direction: column;
+        margin-bottom: 15%;
     }
     .banniere-2 div {
         width: 80%;
