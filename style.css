@@ -92,8 +92,9 @@ header li {
     flex-direction: row;
     justify-content: space-around;
 }
-.argument-icon span {
+.argument-icon i {
     color: #364577;
+    font-size: 15vh;
 }
 .argument-icon p {
     font-size: 1.5vh;
